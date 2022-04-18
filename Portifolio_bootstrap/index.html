@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portifolio Bootstrap</title>
+</head>  
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+
+<div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Portfolio Camila Monaco</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Portfolio</a>
+                <a class="nav-item nav-link" href="#">Sobre mim</a>
+                <a class="nav-item nav-link" href="#">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+</div>
+
+
+<main>
+    <div class="container">
+        <div class="row main-row d-flex flex-column justify-content-center align-items-center">
+            <div class="user ">
+                <figure class="figure d-flex justify-content-center align-items-center">
+                    <img src="img\camila_foto.jpg" class=" img-fluid rounded-circle w-25"
+                        alt="ImagemCamila">
+                </figure>
+            </div>
+            <h1>Camila Monaco</h1>
+
+            <hr style="background:red; width: 100%;">
+            <h6>Estudante | FrontEnd Developer </h6>
+        </div>
+    </div>
+</main>
+
+<section id="portfolio">
+    <div class="container">
+        <div class="row justify-content-center">
+            <h2 class="col-12 text-center">Portfolio</h2>
+
+            <div class="card col-5 col-lg-3 mb-3 mr-2">
+                <a href="https://github.com/MonacoCamila/MonacoCamila">
+                    <img class="image card-img-top" src="img\piza.jpeg" alt="projeto pizzaria">
+
+                    <div class="card-body">
+                        <h5 class="text-center">Projeto Pizzaria</h5>
+                    </div>
+
+                    <div class="overlay">
+                        <i class="bi bi-plus-lg icon-plus"></i>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card col-5 col-lg-3 mb-3 mr-2">
+            
+                <a href="https://github.com/MonacoCamila/MonacoCamila">
+                    <img class="image card-img-top" src="img\CVBatman.png" alt="img batman">
+
+                    <div class="card-body">
+                        <h5 class="text-center">Projeto Super Herois</h5>
+                    </div>
+
+                    <div class="overlay">
+                        <i class="bi bi-plus-lg icon-plus"></i>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="card col-5 col-lg-3 mb-3 mr-2">
+                <a href="https://github.com/MonacoCamila/MonacoCamila">
+                    <img class="image card-img-top" src="img\petshop.jpeg" alt="img pet">
+
+                    <div class="card-body">
+                        <h5 class="text-center">Projeto Pet Shop</h5>
+                    </div>
+
+                    <div class="overlay">
+                        <i class="bi bi-plus-lg icon-plus"></i>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card col-5 col-lg-3 mb-3 mr-2">
+                <a href="https://github.com/MonacoCamila/MonacoCamila">
+                    <img class="image card-img-top" src="img\gameshop.jpeg" alt="img game">
+
+                    <div class="card-body">
+                        <h5 class="text-center">Projeto Game Shop</h5>
+                    </div>
+
+                    <div class="overlay">
+                        <i class="bi bi-plus-lg icon-plus"></i>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card col-5 col-lg-3 mb-3 mr-2">
+                <a href="https://github.com/MonacoCamila/MonacoCamila">
+                    <img class="image card-img-top" src="img\lemon-pie.jpeg" alt="img torta">
+
+                    <div class="card-body">
+                        <h5 class="text-center">Projeto Receitas</h5>
+                    </div>
+
+                    <div class="overlay">
+                        <i class="bi bi-plus-lg icon-plus"></i>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="contato">
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <h2 class="text-center col-12">Contato</h2>
+
+
+            <form>
+                <div class="form-row">
+
+                    <div class="form-group col-12">
+                        <label for="inputName">Nome Completo</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Informe seu nome">
+                    </div>
+
+                    <div class="form-group col-12">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Informe seu email">
+                    </div>
+
+                    <div class="form-group col-12">
+                        <label for="inputTelefone">Senha</label>
+                        <input type="tel" class="form-control" id="inputTelefone"
+                            placeholder="Informe seu telefone">
+                    </div>
+
+                    <div class="form-group col-12">
+                        <label for="textMessage">Deixe sua mensagem:</label>
+                        <textarea class="form-control" id="textMessage" cols="30" rows="10"
+                            placeholder="Deixe sua mensagem"></textarea>
+                    </div>
+
+
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="container">
+            <div class="row d-flex align-items-center">
+
+
+                <div class="endereco col-12 col-lg-4">
+                    <h5> Rua Teste, sem numero Sao Paulo/SP</h5>
+                </div>
+
+                <div class="redes-sociais col-12 col-lg-4">
+                    <h5>Redes sociais</h5>
+
+                    <div class="container-redes d-flex gap-3">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-whatsapp"></i>
+                        <i class="bi bi-linkedin"></i>
+
+                    </div>
+                </div>
+
+                <div class="sobre col-12 col-lg-4">
+                    <h5>Sobre mim</h5>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae amet provident voluptatum
+                        odio velit deleniti quae, nam veritatis molestias vel necessitatibus eaque dolorum possimus
+                        rem? Enim deleniti maxime sunt omnis!</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+
+    
+
+</html>
